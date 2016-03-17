@@ -6,14 +6,14 @@ Bundle-Version: 4.4.0.qualifier
 Bundle-Vendor: scala-ide.org
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
-Bundle-Activator: 
+Bundle-Activator:
  scala.tools.eclipse.ScalaPlugin
-Require-Bundle: 
+Require-Bundle:
  org.eclipse.core.runtime,
  org.eclipse.ui,
  org.eclipse.equinox.app
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Eclipse-ExtensibleAPI: 
+Bundle-RequiredExecutionEnvironment: J2SE-1.6
+Eclipse-ExtensibleAPI:
  true
 
 

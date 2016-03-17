@@ -20,6 +20,8 @@
     <repo.ajdt.kepler>http://download.eclipse.org/tools/ajdt/43/update</repo.ajdt.kepler>
     <repo.eclipse.luna>http://download.eclipse.org/releases/luna</repo.eclipse.luna>
     <repo.ajdt.luna>http://download.eclipse.org/tools/ajdt/44/dev/update</repo.ajdt.luna>
+    <repo.eclipse.mars>http://download.eclipse.org/releases/mars</repo.eclipse.mars>
+    <repo.ajdt.mars>http://download.eclipse.org/tools/ajdt/45/dev/update</repo.ajdt.mars>
     <repo.scala-ide.root>http://download.scala-ide.org</repo.scala-ide.root>
 
     <!-- plugin versions -->
@@ -59,7 +61,7 @@
       <id>scala-2.11.x</id>
       <properties>
         <repopath.scala-ide.ecosystem>/scala211/stable/site/</repopath.scala-ide.ecosystem>
-        <scala.version>2.11.0</scala.version>
+        <scala.version>2.11.8</scala.version>
         <scala.major.minor.version>2.11</scala.major.minor.version>
       </properties>
     </profile>
@@ -81,6 +83,16 @@
         <repo.eclipse>${repo.eclipse.luna}</repo.eclipse>
         <repo.ajdt>${repo.ajdt.luna}</repo.ajdt>
         <repopath.platform>/sdk/lithium/e44</repopath.platform>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>mars</id>
+      <properties>
+        <eclipse.codename>mars</eclipse.codename>
+        <repo.eclipse>${repo.eclipse.mars}</repo.eclipse>
+        <repo.ajdt>${repo.ajdt.mars}</repo.ajdt>
+        <repopath.platform>/sdk/lithium/e45</repopath.platform>
       </properties>
     </profile>
 
